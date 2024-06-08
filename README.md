@@ -22,6 +22,7 @@ For packages, see requirements.txt.
 - To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
 
 - Train the TSID-Net model:
+- Complete the following scripts in sequence
 ```bash
 python Stage1_train_RS.py
 python Stage2_1_train_Teachers.py
