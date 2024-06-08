@@ -23,10 +23,12 @@ For packages, see requirements.txt.
 
 - Train the TSID-Net model:
 ```bash
-python train.py 
+python Stage1_train_RS.py
+python Stage2_1_train_Teachers.py
+python Stage2_2_train_TS.py 
 ```
 - Test the TSID-Net model:
 ```bash
-python test.py
+python test_TS.py
 ```
 
